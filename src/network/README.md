@@ -20,3 +20,9 @@
 ```Shell
     pip install "requests[socks]" -i https://pypi.mirrors.ustc.edu.cn/simple/
 ```
+
+# httpx
+```Shell
+    pip install httpx -i https://pypi.mirrors.ustc.edu.cn/simple/
+    pip install "httpx[http2]" -i https://pypi.mirrors.ustc.edu.cn/simple/
+```
