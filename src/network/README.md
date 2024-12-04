@@ -12,3 +12,11 @@
 ```Shell
     pip install requests
 ```
+
+```Shell
+    pip install requests_oauthlib -i https://pypi.mirrors.ustc.edu.cn/simple/
+```
+
+```Shell
+    pip install "requests[socks]" -i https://pypi.mirrors.ustc.edu.cn/simple/
+```
