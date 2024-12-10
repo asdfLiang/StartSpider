@@ -8,6 +8,7 @@ start = time.time()
 
 
 async def get(url: str):
+    # 因为requests.get()是阻塞调用，切换到其他协程执行后，会阻塞而不是异步执行，所以结果还是顺序执行的
     return requests.get(url)
 
 
