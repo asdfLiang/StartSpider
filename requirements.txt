@@ -1,0 +1,20 @@
+// requests
+pip install requests
+pip install requests_oauthlib
+pip install "requests[socks]"
+
+// httpx
+pip install httpx
+pip install "httpx[http2]"
+
+// xpath
+pip3 install lxml
+
+// Beautiful Soup
+pip3 install beautifulsoup4
+
+// parsel
+pip3 install parsel
+
+// selenium
+pip3 install selenium
