@@ -19,5 +19,5 @@ headers = {
 resp = requests.get("https://github.com/", headers=headers)
 print(resp.text)
 
-with open("downloads/asdfLiang_github.html", "wb") as f:
+with open("tests/downloads/asdfLiang_github.html", "wb") as f:
     f.write(resp.content)

@@ -5,7 +5,7 @@ import urllib.request, http.cookiejar
 """
 
 # 构建handler
-filename = "downloads/cookie.txt"
+filename = "tests/downloads/cookie.txt"
 cookie = http.cookiejar.MozillaCookieJar(filename)
 handler = urllib.request.HTTPCookieProcessor(cookie)
 # 构建opener

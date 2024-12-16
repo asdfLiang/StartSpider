@@ -5,7 +5,7 @@ import urllib.request, http.cookiejar
 """
 
 # 构建handler
-filename = "downloads/cookie_lwp.txt"
+filename = "tests/downloads/cookie_lwp.txt"
 cookie = http.cookiejar.LWPCookieJar(filename=filename)
 handler = urllib.request.HTTPCookieProcessor(cookie)
 # 构建opener

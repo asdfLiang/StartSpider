@@ -73,7 +73,7 @@ async def save_to_text(file, data):
 
 # 保存一页数据到text
 async def scrape_details_text(session, index_data):
-    with open("downloads/scrape_details.txt", "a+", encoding="utf-8") as file:
+    with open("tests/downloads/scrape_details.txt", "a+", encoding="utf-8") as file:
         for item in index_data.get("results"):
             data = await scrape_detail(session, item.get("id"))
             await save_to_text(file, data)

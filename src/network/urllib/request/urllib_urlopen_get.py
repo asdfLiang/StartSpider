@@ -12,5 +12,5 @@ print(response.read().decode("utf-8"))
 print(type(response))
 print(type(response.read()))
 
-with open("downloads/mybaidu.html", "wb") as f:
+with open("tests/downloads/mybaidu.html", "wb") as f:
     f.write(response.read())

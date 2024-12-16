@@ -11,5 +11,5 @@ headers = {
 
 response = requests.get(url=url, headers=headers)
 
-with open("downloads/baidu.html", "wb") as f:
+with open("tests/downloads/baidu.html", "wb") as f:
     f.write(response.content)
