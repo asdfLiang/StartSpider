@@ -18,3 +18,6 @@ pip3 install parsel
 
 // selenium
 pip3 install selenium
+
+// pyppaeteer
+pip3 install pyppeteer==1.0.2
