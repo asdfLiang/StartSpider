@@ -21,3 +21,7 @@ pip3 install selenium
 
 // pyppaeteer
 pip3 install pyppeteer==1.0.2
+
+// playwright
+pip3 install playwright
+playwright install

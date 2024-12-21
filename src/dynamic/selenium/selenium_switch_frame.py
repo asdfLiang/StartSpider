@@ -12,7 +12,6 @@ with webdriver.Chrome() as browser:
     browser.get(url)
     browser.switch_to.frame("iframeResult")
     try:
-
         logo = browser.find_element(By.CLASS_NAME, "logo")
     except NoSuchElementException as e:
         print("NO LOGO")
