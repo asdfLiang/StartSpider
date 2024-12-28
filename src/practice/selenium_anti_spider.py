@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from parsel import Selector
 
 """
-    CSS位置偏移反扒
+    CSS位置偏移反扒实践 - 文字的位置由css控制
 """
 
 
