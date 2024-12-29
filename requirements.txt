@@ -32,3 +32,6 @@ pip3 install pillow retrying
 // tesserocr
 tesserocr下载地址：https://digi.bib.uni-mannheim.de/tesseract/
 pip3 install pytesseract
+
+// opencv
+pip3 install opencv-python

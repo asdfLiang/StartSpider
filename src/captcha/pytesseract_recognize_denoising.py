@@ -20,6 +20,8 @@ threshold = 80
 array = np.array(image0)
 array = np.where(array > threshold, 255, 0)
 image0 = Image.fromarray(array.astype(np.uint8))
+
+# 再次识别
 str_16fa = ocr.image_to_string(image0)
-print("str_16fa: ", str_16fa)  # 再次识别
+print("str_16fa: ", str_16fa)
 image0.show()
