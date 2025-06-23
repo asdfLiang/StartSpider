@@ -35,3 +35,14 @@ pip3 install pytesseract
 
 // opencv
 pip3 install opencv-python
+
+// PyTorch
+官网地址：https://pytorch.org/
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+// socks代理
+pip install PySocks
+pip install "requests[socks]"
+pip install aiohttp-socks
+
+pip install redis flask loguru
